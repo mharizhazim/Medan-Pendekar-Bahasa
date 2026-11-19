@@ -1,21 +1,42 @@
-<!doctype html>
-<html lang="ms">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <title>MEDAN PENDEKAR BAHASA — Misi Raja Mustafar</title>
-    <meta name="description" content="Terokai Medan, Cari Tabung, Kuasai Bahasa! Permainan pengembaraan pendidikan 3D Nusantara untuk menguasai Kata Adjektif bersama Raja Mustafar dan Awang Kenit." />
-    <meta property="og:title" content="MEDAN PENDEKAR BAHASA — Misi Raja Mustafar" />
-    <meta property="og:description" content="Terokai Medan, Cari Tabung, Kuasai Bahasa! Permainan pengembaraan pendidikan 3D Nusantara untuk menguasai Kata Adjektif." />
-    <meta property="og:type" content="website" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Outfit:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
-</html>
 
+import tailwindcss from '@tailwindcss/vite';
+import react from '@vitejs/plugin-react';
+import fs from 'fs';
+import path from 'path';
+import {defineConfig} from 'vite';
+
+export default defineConfig(() => {
+  return {
+    // GitHub Pages base path
+    base: '/Medan-Pendekar-Bahasa/',
+
+    plugins: [
+      react(),
+      tailwindcss(),
+      {
+        name: 'copy-unbundled-src-assets',
+        apply: 'build',
+        closeBundle(error?: Error): void {
+          if (error) {
+            return;
+          }
+          const distDir = path.resolve(__dirname, 'dist');
+          const srcAssets = path.resolve(__dirname, 'src/assets');
+          const distAssets = path.resolve(distDir, 'src/assets');
+          if (fs.existsSync(distDir) && fs.existsSync(srcAssets)) {
+            fs.cpSync(srcAssets, distAssets, {recursive: true, force: true});
+          }
+        },
+      },
+    ],
+    resolve: {
+      alias: {
+        '@': path.resolve(__dirname, '.'),
+      },
+    },
+    server: {
+      hmr: process.env.DISABLE_HMR !== 'true',
+      watch: process.env.DISABLE_HMR === 'true' ? null : {},
+    },
+  };
+});
