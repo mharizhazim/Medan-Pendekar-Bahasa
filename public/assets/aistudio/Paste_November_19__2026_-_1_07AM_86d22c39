@@ -1,0 +1,1015 @@
+# PROMPT GOOGLE AI STUDIO
+# MEDAN PENDEKAR BAHASA: MISI RAJA MUSTAFAR
+
+Bertindak sebagai pakar pembangunan permainan 3D, pereka permainan pendidikan (Educational Game Designer), pakar UI/UX, pengatur cara permainan dan pakar pedagogi Bahasa Melayu sekolah rendah.
+
+Saya ingin anda membangunkan sebuah permainan pendidikan digital 3D yang interaktif, menarik dan benar-benar boleh dimainkan.
+
+Nama permainan:
+
+**MEDAN PENDEKAR BAHASA**
+
+Slogan:
+
+*"Terokai Medan, Cari Tabung, Kuasai Bahasa!"*
+
+Permainan ini merupakan sambungan kepada permainan terdahulu yang bertajuk **MISI JELAJAH BUDAYA**.
+
+Dalam permainan terdahulu, murid perlu mengumpulkan kupang untuk membeli avatar. Hanya murid yang berjaya mendapatkan avatar **RAJA MUSTAFAR** dibenarkan meneruskan pengembaraan ke permainan kedua ini.
+
+Permainan kedua ini berkonsepkan pengembaraan dunia terbuka seperti Roblox, dengan watak yang boleh dikawal dan digerakkan ke pelbagai lokasi.
+
+Fokus pembelajaran ialah:
+
+**LATIHAN MELENGKAPKAN CERITA / PETIKAN MENGGUNAKAN KATA ADJEKTIF**
+
+Murid perlu mencari lima buah peti misteri yang dinamakan TABUNG PITIS. Setiap tabung mengandungi satu cabaran melengkapkan petikan cerita rakyat dengan menaip kata adjektif yang paling sesuai.
+
+Pastikan permainan ini mengekalkan identiti visual dunia Awang Kenit, budaya Melayu, cerita rakyat dan suasana fantasi Nusantara.
+
+---
+
+# 1. KONSEP DAN IDENTITI PERMAINAN
+
+Nama: MEDAN PENDEKAR BAHASA
+
+Watak utama: RAJA MUSTAFAR
+
+Tema: Pengembaraan fantasi Melayu dan Nusantara.
+
+Jenis permainan:
+- 3D Open-World Adventure.
+- Educational Role-Playing Game (RPG).
+- Exploration and Treasure Hunt.
+- Language Learning Game.
+
+Gaya visual:
+- Gunakan grafik 3D berbentuk blok (blocky 3D), diinspirasikan oleh permainan Roblox.
+- Watak mempunyai bentuk 3D yang comel, jelas dan mudah dikenal pasti.
+- Persekitaran mempunyai tekstur dan warna yang menarik.
+- Gabungkan elemen Pixel Art 8-bit dan dunia 3D fantasi.
+- Kekalkan identiti watak daripada dunia Awang Kenit.
+- Gunakan suasana alam semula jadi Malaysia seperti hutan tropika, gunung, sungai, gua, perkampungan tradisional dan istana Melayu.
+
+Warna utama:
+- Hijau hutan.
+- Coklat kayu.
+- Biru sungai.
+- Emas diraja.
+- Merah tradisional.
+- Jingga keemasan.
+
+Permainan perlu memberikan pengalaman seolah-olah murid sedang memasuki sebuah dunia pengembaraan fantasi Melayu.
+
+**PENTING:** Jangan hasilkan permainan berbentuk kuiz biasa atau paparan soalan semata-mata. Saya mahu pemain benar-benar boleh mengawal watak, berjalan, berlari, meneroka kawasan, mencari peti dan berinteraksi dengan objek dalam persekitaran 3D.
+
+# 2. SISTEM SAMBUNGAN DARIPADA MISI JELAJAH BUDAYA
+
+Permainan ini mesti mempunyai kesinambungan daripada permainan pertama, iaitu MISI JELAJAH BUDAYA.
+
+Dalam permainan pertama:
+- Murid telah menyelesaikan tiga tahap pembelajaran.
+- Murid mengumpulkan kupang.
+- Murid membeli pelbagai avatar.
+- Avatar paling hebat ialah RAJA MUSTAFAR.
+
+Dalam permainan kedua:
+- Hanya pemain yang telah memiliki avatar RAJA MUSTAFAR boleh memasuki MEDAN PENDEKAR BAHASA.
+- Gunakan avatar Raja Mustafar sebagai watak utama.
+- Kekalkan nama pemain dan data kemajuan jika maklumat tersebut tersedia daripada permainan pertama.
+
+### Sistem pengesahan avatar
+
+Bina satu halaman pengesahan sebelum permainan bermula.
+
+Tajuk:
+
+**GERBANG MEDAN PENDEKAR BAHASA**
+
+Mesej:
+
+"Selamat kembali, Raja Mustafar! Anda telah berjaya menguasai dunia budaya. Kini, pengembaraan baharu menanti anda di Medan Pendekar Bahasa."
+
+Sediakan sistem pengesahan pemilikan avatar Raja Mustafar melalui:
+1. Data kemajuan pemain yang dikongsi antara kedua-dua permainan.
+2. Kod pemindahan kemajuan daripada permainan MISI JELAJAH BUDAYA sebagai kaedah alternatif.
+
+Jika data atau kod tidak sah, paparkan:
+
+"Gerbang masih terkunci! Anda perlu mendapatkan avatar Raja Mustafar dalam Misi Jelajah Budaya terlebih dahulu."
+
+Jangan benarkan pemain memintas syarat ini secara automatik.
+
+Jika kedua-dua permainan dibangunkan sebagai projek berasingan, sediakan struktur eksport dan import kod kemajuan supaya status pemilikan Raja Mustafar boleh dipindahkan dengan betul.
+
+# 3. HALAMAN UTAMA PERMAINAN
+
+Hasilkan halaman utama yang mempunyai suasana istana dan medan pengembaraan Melayu.
+
+Paparkan:
+- Tajuk MEDAN PENDEKAR BAHASA.
+- Slogan "Terokai Medan, Cari Tabung, Kuasai Bahasa!"
+- Watak Raja Mustafar dalam bentuk 3D.
+- Latar belakang istana Melayu yang dikelilingi hutan tropika.
+- Gunung-ganang, sungai dan gerbang batu.
+- Watak Awang Kenit sebagai pemandu pengembaraan.
+
+Butang utama:
+1. MULAKAN PENGEMBARAAN
+2. PANDUAN PERMAINAN
+3. PROFIL PENDEKAR
+4. INVENTORI
+5. KEMBALI KE MENU UTAMA
+
+Paparkan juga:
+- Jumlah kupang yang dimiliki.
+- Tahap kekuatan pemain.
+- Senjata dan peralatan yang dimiliki.
+- Jumlah tabung yang telah ditemukan.
+
+# 4. WATAK UTAMA: RAJA MUSTAFAR
+
+Gunakan Raja Mustafar sebagai satu-satunya avatar utama dalam permainan ini.
+
+Reka bentuk karakter:
+- Watak lelaki dalam bentuk 3D blocky.
+- Memakai pakaian diraja Melayu.
+- Memakai tengkolok diraja.
+- Mempunyai samping dan aksesori keemasan.
+- Membawa keris diraja sebagai artifak fantasi.
+- Mempunyai gaya seorang raja yang gagah dan berani.
+
+Watak ini perlu:
+- Boleh berjalan.
+- Boleh berlari.
+- Boleh melompat.
+- Boleh berpusing.
+- Boleh berinteraksi dengan peti.
+- Boleh mengambil objek.
+- Boleh menghadapi cabaran raksasa.
+- Boleh menggunakan peralatan yang diperoleh.
+
+Pastikan animasi pergerakan watak kelihatan lancar dan tidak kaku.
+
+# 5. SISTEM KAWALAN WATAK SEPERTI ROBLOX
+
+Permainan mesti mempunyai kawalan pergerakan watak dalam dunia 3D.
+
+### Untuk komputer / laptop
+
+Gunakan kawalan berikut:
+
+| Kekunci | Fungsi |
+|---|---|
+| W | Bergerak ke hadapan |
+| S | Bergerak ke belakang |
+| A | Bergerak ke kiri |
+| D | Bergerak ke kanan |
+| SPACE | Melompat |
+| SHIFT | Berlari |
+| E | Berinteraksi dengan objek |
+| I | Membuka inventori |
+| ESC | Membuka menu permainan |
+
+### Untuk telefon pintar dan tablet
+
+Sediakan:
+- Joystick maya di bahagian kiri bawah skrin.
+- Butang lompat di bahagian kanan.
+- Butang lari.
+- Butang interaksi.
+- Butang inventori.
+
+Pastikan semua kawalan responsif dan mudah digunakan oleh murid Tahun 6.
+
+Watak perlu bergerak dalam dunia 3D sebenar, bukan sekadar bergerak antara gambar atau kad.
+
+### Kamera permainan
+
+Gunakan kamera perspektif orang ketiga (third-person camera).
+
+Ciri-ciri:
+- Kamera mengikuti pergerakan Raja Mustafar.
+- Pemain boleh mengubah arah pandangan kamera.
+- Watak sentiasa kelihatan pada skrin.
+- Kamera tidak boleh menembusi dinding atau objek.
+- Jarak pandangan mencukupi untuk melihat kawasan sekeliling.
+
+# 6. PETA PENGEMBARAAN: LIMA LOKASI TABUNG PITIS
+
+Sediakan sebuah dunia terbuka yang mengandungi lima lokasi berlainan.
+
+Setiap lokasi mempunyai:
+- Reka bentuk persekitaran tersendiri.
+- Laluan pengembaraan.
+- Elemen budaya Melayu.
+- Halangan kecil.
+- Raksasa yang mungkin muncul.
+- Sebuah TABUNG PITIS yang tersembunyi.
+
+Lima lokasi mestilah saling bersambung melalui laluan yang boleh diterokai.
+
+## LOKASI 1: RIMBA WARISAN
+
+<text>Aras kesukaran: MUDAH</text>
+
+Reka bentuk:
+- Hutan tropika yang menghijau.
+- Pokok-pokok besar.
+- Sungai kecil.
+- Batu-batuan.
+- Bunga liar.
+- Burung yang terbang.
+- Tupai dan rama-rama.
+
+Elemen budaya:
+- Pondok kayu tradisional.
+- Ukiran kayu.
+- Peralatan tradisional.
+- Jejak pengembaraan Awang Kenit.
+
+Tabung Pitis pertama terletak di kawasan berhampiran sebatang pokok besar.
+
+## LOKASI 2: GUA SERIBU MISTERI
+
+<text>Aras kesukaran: RENDAH KE SEDERHANA</text>
+
+Reka bentuk:
+- Gua batu yang mempunyai laluan berliku.
+- Cahaya obor.
+- Kristal berwarna-warni.
+- Air yang menitis dari siling gua.
+- Batu bercahaya.
+
+Elemen budaya:
+- Lukisan dan corak tradisional.
+- Ukiran bermotifkan flora.
+- Simbol warisan Nusantara.
+
+Tabung Pitis kedua tersembunyi di kawasan dalam gua.
+
+## LOKASI 3: PERKAMPUNGAN NUSANTARA
+
+<text>Aras kesukaran: SEDERHANA</text>
+
+Reka bentuk:
+- Rumah tradisional Melayu.
+- Rumah panggung.
+- Sawah padi.
+- Jambatan kayu.
+- Sungai.
+- Pasar tradisional.
+
+Elemen budaya:
+- Wau bulan.
+- Batik.
+- Songket.
+- Kompang.
+- Gendang.
+- Kuih tradisional.
+- Peralatan pertanian.
+
+Tabung Pitis ketiga terletak berhampiran kawasan pasar atau rumah tradisional.
+
+## LOKASI 4: LEMBAH PENDEKAR
+
+<text>Aras kesukaran: SEDERHANA KE TINGGI</text>
+
+Reka bentuk:
+- Kawasan lembah yang luas.
+- Gunung berbatu.
+- Air terjun.
+- Jambatan gantung.
+- Laluan sempit.
+- Hutan buluh.
+
+Elemen budaya:
+- Gelanggang seni silat.
+- Senjata tradisional sebagai artifak pameran.
+- Peralatan muzik tradisional.
+- Tiang dan ukiran Melayu.
+
+Tabung Pitis keempat terletak berhampiran sebuah gelanggang pendekar.
+
+## LOKASI 5: ISTANA PUNCAK MUSTAFAR
+
+<text>Aras kesukaran: PALING TINGGI</text>
+
+Reka bentuk:
+- Istana Melayu yang terletak di atas gunung.
+- Tangga batu yang panjang.
+- Gerbang diraja.
+- Tiang istana yang tinggi.
+- Taman bunga.
+- Air pancut.
+- Bilik takhta.
+
+Elemen budaya:
+- Seni bina istana Melayu.
+- Ukiran kayu tradisional.
+- Motif songket.
+- Tengkolok diraja.
+- Keris diraja.
+- Singgahsana.
+
+Tabung Pitis kelima diletakkan berhampiran singgahsana Raja Mustafar.
+
+**PENTING:** Kelima-lima tabung perlu diletakkan di lokasi yang boleh dicari dan dicapai oleh pemain. Jangan letakkan tabung di kawasan yang tidak boleh dimasuki atau di luar peta.
+
+# 7. SISTEM TABUNG PITIS
+
+Tabung Pitis ialah objek utama yang perlu dicari oleh pemain.
+
+Reka bentuk:
+- Peti harta karun tradisional.
+- Diperbuat daripada kayu.
+- Mempunyai ukiran Melayu.
+- Dihiasi corak emas.
+- Mempunyai lambang kupang.
+- Bercahaya apabila pemain berada berdekatan.
+
+Apabila pemain menghampiri tabung, paparkan arahan:
+
+**"TEKAN E UNTUK MEMBUKA TABUNG PITIS"**
+
+Untuk telefon pintar, gunakan butang INTERAKSI.
+
+Apabila pemain membuka tabung:
+1. Paparkan animasi peti terbuka.
+2. Paparkan cahaya keemasan.
+3. Paparkan tajuk cabaran.
+4. Paparkan petikan cerita.
+5. Sediakan ruang untuk menaip jawapan.
+6. Sediakan butang HANTAR JAWAPAN.
+
+Setiap tabung mengandungi SATU soalan utama berbentuk latihan melengkapkan cerita atau petikan.
+
+Jumlah keseluruhan: LIMA SOALAN.
+
+Pastikan setiap tabung hanya boleh memberikan ganjaran sekali sahaja.
+
+# 8. SISTEM MENJAWAB SOALAN: TAIP JAWAPAN SENDIRI
+
+Ini merupakan fungsi pembelajaran yang paling penting dalam permainan.
+
+Saya tidak mahu sistem pilihan jawapan A, B atau C.
+
+Murid perlu menaip sendiri kata adjektif yang betul pada ruang kosong dalam petikan.
+
+Paparkan satu ruang input teks yang jelas dan mudah digunakan.
+
+Contoh:
+
+"Awang Kenit melangkah masuk ke dalam gua yang sangat ________ sambil memegang sebatang jarum tajam."
+
+Sediakan ruang:
+
+[ TAIP JAWAPAN ANDA DI SINI ]
+
+Butang:
+
+**HANTAR JAWAPAN**
+
+Peraturan:
+- Pemain perlu menaip jawapan sendiri.
+- Tiada pilihan jawapan dipaparkan.
+- Jangan berikan jawapan sebelum pemain menghantar jawapan.
+- Pemain boleh menggunakan huruf besar atau huruf kecil.
+- Sistem perlu mengabaikan ruang kosong berlebihan pada awal dan akhir jawapan.
+- Sistem perlu menyemak jawapan secara automatik.
+- Terima variasi ejaan hanya jika variasi tersebut memang betul dan telah ditetapkan dalam senarai jawapan yang diterima.
+- Jangan menerima perkataan yang hanya hampir sama tetapi tidak sesuai dengan konteks ayat.
+
+Jika ruang jawapan kosong, paparkan:
+
+"Sila masukkan jawapan sebelum menghantar."
+
+# 9. LIMA SOALAN TABUNG PITIS MENGIKUT ARAS KESUKARAN
+
+Gunakan soalan berikut sebagai kandungan rasmi permainan.
+
+Setiap petikan perlu dipaparkan dengan susunan teks yang menarik, jelas dan mudah dibaca.
+
+## TABUNG PITIS 1: RIMBA WARISAN
+
+<text>Aras: MUDAH</text>
+
+Tajuk cerita: PENGEMBARAAN AWANG KENIT
+
+Petikan:
+
+"Pada suatu pagi, Awang Kenit memulakan pengembaraannya ke dalam sebuah hutan. Dia berjalan dengan berhati-hati sebelum memasuki sebuah gua yang sangat ________. Walaupun keadaan di dalam gua itu kurang bercahaya, Awang Kenit tetap meneruskan langkahnya."
+
+Jawapan: GELAP
+
+Jenis kata adjektif: Pancaindera.
+
+Penerangan jawapan:
+
+"Jawapan GELAP adalah betul kerana perkataan ini menerangkan keadaan gua yang kurang mendapat cahaya. Kata adjektif ini tergolong dalam kata adjektif pancaindera, iaitu berkaitan dengan deria penglihatan."
+
+Jika salah:
+
+"Belum tepat! Cuba fikirkan perkataan yang menerangkan keadaan sebuah gua yang kurang mendapat cahaya."
+
+## TABUNG PITIS 2: GUA SERIBU MISTERI
+
+<text>Aras: RENDAH KE SEDERHANA</text>
+
+Tajuk cerita: BUNGA MISTERI DI DALAM GUA
+
+Petikan:
+
+"Ketika meneruskan perjalanan, Awang Kenit menemui sekuntum bunga berwarna putih di celah batu. Bunga itu mengeluarkan bau yang sangat ________. Awang Kenit berasa kagum lalu mengambil masa untuk memerhatikan keindahan bunga tersebut."
+
+Jawapan: HARUM
+
+Jenis kata adjektif: Pancaindera.
+
+Penerangan jawapan:
+
+"Jawapan HARUM adalah betul kerana perkataan ini menerangkan bau bunga yang menyenangkan. Kata adjektif ini berkaitan dengan deria bau."
+
+Jika salah:
+
+"Belum tepat! Fikirkan perkataan yang sesuai untuk menerangkan bau bunga yang menyenangkan."
+
+## TABUNG PITIS 3: PERKAMPUNGAN NUSANTARA
+
+<text>Aras: SEDERHANA</text>
+
+Tajuk cerita: MENYUSURI SUNGAI KAMPUNG
+
+Petikan:
+
+"Selepas keluar dari gua, Awang Kenit tiba di sebuah perkampungan tradisional. Dia melihat penduduk kampung sedang menyeberangi sungai menggunakan perahu. Air sungai itu mengalir dengan sangat ________ selepas hujan lebat turun pada malam sebelumnya."
+
+Jawapan: DERAS
+
+Jenis kata adjektif: Cara.
+
+Penerangan jawapan:
+
+"Jawapan DERAS adalah betul kerana perkataan ini menerangkan keadaan aliran air sungai yang bergerak dengan cepat dan kuat. Kata adjektif ini menerangkan cara atau keadaan sesuatu pergerakan."
+
+Jika salah:
+
+"Belum tepat! Cuba fikirkan perkataan yang menerangkan aliran air sungai yang bergerak dengan kuat dan cepat."
+
+## TABUNG PITIS 4: LEMBAH PENDEKAR
+
+<text>Aras: SEDERHANA KE TINGGI</text>
+
+Tajuk cerita: CABARAN DI LEMBAH PENDEKAR
+
+Petikan:
+
+"Awang Kenit tiba di sebuah gelanggang seni silat yang terletak di kaki gunung. Tiba-tiba, bunyi guruh kedengaran dari arah hutan. Awang Kenit berasa ________ apabila melihat awan hitam mula menyelubungi kawasan tersebut. Namun begitu, dia tetap menguatkan semangat untuk meneruskan perjalanan."
+
+Jawapan: CEMAS
+
+Jenis kata adjektif: Perasaan.
+
+Penerangan jawapan:
+
+"Jawapan CEMAS adalah betul kerana perkataan ini menggambarkan perasaan bimbang atau gelisah yang dialami oleh Awang Kenit apabila keadaan cuaca berubah secara tiba-tiba."
+
+Jika salah:
+
+"Belum tepat! Fikirkan perkataan yang menggambarkan perasaan seseorang apabila menghadapi keadaan yang membimbangkan."
+
+## TABUNG PITIS 5: ISTANA PUNCAK MUSTAFAR
+
+<text>Aras: PALING TINGGI</text>
+
+Tajuk cerita: KEMBALI KE ISTANA WARISAN
+
+Petikan:
+
+"Akhirnya, Raja Mustafar berjaya tiba di istana yang terletak di puncak gunung. Di dalam balai istana, sekumpulan pemuzik sedang memainkan alat muzik tradisional. Alunan serunai yang dimainkan kedengaran sangat ________ sehingga para tetamu terpegun menikmati persembahan tersebut."
+
+Jawapan: MERDU
+
+Jenis kata adjektif: Pancaindera.
+
+Penerangan jawapan:
+
+"Jawapan MERDU adalah betul kerana perkataan ini menerangkan bunyi muzik yang enak didengar dan menyenangkan telinga. Kata adjektif ini berkaitan dengan deria pendengaran."
+
+Jika salah:
+
+"Belum tepat! Cuba fikirkan perkataan yang menerangkan bunyi muzik yang enak dan menyenangkan apabila didengar."
+
+# 10. SISTEM MAKLUM BALAS DAN PERCUBAAN SEMULA
+
+Selepas pemain menghantar jawapan, sistem perlu terus memberikan maklum balas.
+
+### Jika jawapan betul
+
+Paparkan:
+- Animasi cahaya keemasan.
+- Teks "JAWAPAN BETUL!"
+- Penerangan mengapa jawapan tersebut tepat.
+- Jenis kata adjektif yang digunakan.
+- Ganjaran kupang.
+- Butang TERUSKAN PENGEMBARAAN.
+
+Contoh:
+
+"Syabas, Raja Mustafar! Jawapan anda tepat. Perkataan GELAP menerangkan keadaan gua yang kurang bercahaya."
+
+Tandakan tabung tersebut sebagai SELESAI.
+
+### Jika jawapan salah
+
+Paparkan:
+- Teks "JAWAPAN KURANG TEPAT!"
+- Penerangan tentang kesesuaian kata adjektif dalam konteks ayat.
+- Kata-kata semangat.
+- Ruang untuk menaip semula jawapan.
+
+Contoh:
+
+"Jangan berputus asa, Raja Mustafar! Setiap cabaran memerlukan ketelitian. Cuba teliti semula maksud ayat dan pilih kata adjektif yang paling sesuai."
+
+PENTING:
+- Jangan terus mendedahkan jawapan bagi percubaan pertama yang salah.
+- Benarkan pemain mencuba semula.
+- Pemain hanya boleh melengkapkan tabung apabila jawapan betul.
+- Simpan status soalan yang masih belum diselesaikan.
+- Selepas semua tabung dijumpai, paparkan senarai soalan yang pernah dijawab salah.
+- Pemain perlu menjawab semula semua soalan yang pernah dijawab salah sebelum mendapat gelaran PANGLIMA AGUNG.
+
+Jika pemain menjawab salah sebanyak beberapa kali, berikan petunjuk secara berperingkat tanpa terus mendedahkan jawapan.
+
+# 11. SISTEM RAKSASA DAN CABARAN PERTAHANAN
+
+Semasa Raja Mustafar meneroka lima lokasi, pemain mungkin bertemu dengan raksasa yang menjaga kawasan tertentu.
+
+Raksasa merupakan musuh fantasi dalam dunia Awang Kenit.
+
+Reka bentuk:
+- Raksasa hutan.
+- Raksasa batu.
+- Raksasa gua.
+- Raksasa lembah.
+- Raksasa penjaga istana.
+
+Setiap raksasa mempunyai reka bentuk dan tahap kekuatan yang berbeza.
+
+Pertemuan dengan raksasa merupakan cabaran sampingan yang tidak menggantikan lima soalan utama Tabung Pitis.
+
+### Mekanisme pertemuan
+
+1. Raksasa muncul apabila pemain memasuki kawasan tertentu.
+2. Paparkan animasi kemunculan raksasa.
+3. Paparkan bar tenaga Raja Mustafar dan raksasa.
+4. Pemain boleh menggunakan sistem cabaran pertahanan fantasi.
+5. Gunakan butang tindakan seperti PERTAHANAN, GUNAKAN PERISAI dan TENAGA PENDEKAR.
+6. Pertempuran menggunakan sistem permainan fantasi yang ringkas dan tidak memaparkan keganasan grafik.
+7. Jika tenaga raksasa habis, raksasa akan ditewaskan dan berundur.
+8. Jika tenaga Raja Mustafar habis, pemain dianggap kalah dalam cabaran dan boleh meneruskan pengembaraan.
+
+Jangan paparkan unsur kecederaan grafik atau keganasan yang melampau.
+
+### Jika pemain berjaya menewaskan raksasa
+
+Paparkan:
+
+"TAHNIAH, RAJA MUSTAFAR! Anda berjaya mengatasi cabaran penjaga hutan!"
+
+Ganjaran:
+- +30 kupang.
+- Peningkatan kekuatan diri.
+- Peluang memperoleh peralatan tambahan.
+- Mata pengalaman (XP).
+
+### Jika pemain kalah
+
+Jangan tamatkan permainan.
+
+Paparkan:
+
+"Jangan berputus asa, Raja Mustafar! Seorang pendekar sejati tidak mudah mengalah. Kuatkan semangat dan teruskan pengembaraan anda. Tabung Pitis masih menanti untuk ditemukan!"
+
+Pemain boleh:
+- Bangkit semula.
+- Memulihkan tenaga secara asas.
+- Meneruskan perjalanan.
+- Mencari Tabung Pitis yang seterusnya.
+
+Kekalahan dalam cabaran raksasa tidak boleh menyebabkan pemain kehilangan soalan, kupang yang telah dikumpulkan atau kemajuan tabung.
+
+# 12. SISTEM PERALATAN DAN INVENTORI
+
+Sediakan sistem inventori yang membolehkan Raja Mustafar menyimpan dan menggunakan peralatan tambahan.
+
+Peralatan yang perlu disediakan:
+
+**1. PERISAI WARISAN**
+- Berbentuk perisai tradisional.
+- Dihiasi corak ukiran Melayu.
+- Meningkatkan tahap pertahanan pemain.
+- Mengurangkan kesan serangan fantasi dalam permainan.
+
+**2. KERIS DIRaja**
+- Reka bentuk keris Melayu tradisional sebagai artifak fantasi.
+- Mempunyai sarung berhias emas.
+- Meningkatkan nilai kekuatan permainan.
+- Digunakan dalam animasi cabaran fantasi.
+
+**3. RAMUAN PEMULIH TENAGA**
+- Digunakan untuk memulihkan tenaga pemain.
+- Mempunyai reka bentuk botol kecil berwarna hijau.
+- Boleh diperoleh melalui ganjaran.
+
+**4. PELINDUNG AJAIB**
+- Memberikan perlindungan sementara.
+- Mempunyai kesan cahaya keemasan.
+
+Pastikan semua peralatan mempunyai fungsi yang berbeza.
+
+Paparkan inventori dalam bentuk panel yang mudah dibuka dan ditutup.
+
+Pemain boleh melihat:
+- Nama peralatan.
+- Ilustrasi peralatan.
+- Tahap kekuatan.
+- Fungsi peralatan.
+- Status dimiliki atau belum dimiliki.
+
+# 13. SISTEM KUPANG DAN GANJARAN
+
+Gunakan mata wang bernama KUPANG seperti dalam permainan MISI JELAJAH BUDAYA.
+
+Pemain boleh memperoleh kupang melalui:
+
+1. Menjawab Tabung Pitis dengan betul.
+2. Menewaskan raksasa dalam cabaran fantasi.
+3. Menyelesaikan keseluruhan pengembaraan.
+4. Menemui ganjaran tersembunyi dalam peta.
+
+Cadangan ganjaran:
+- Tabung Pitis 1: +10 kupang.
+- Tabung Pitis 2: +15 kupang.
+- Tabung Pitis 3: +20 kupang.
+- Tabung Pitis 4: +25 kupang.
+- Tabung Pitis 5: +30 kupang.
+- Menewaskan raksasa: +30 kupang bagi setiap cabaran yang berjaya diselesaikan.
+
+Pastikan:
+- Kupang hanya diberikan sekali bagi setiap jawapan betul.
+- Kupang tidak diberikan bagi jawapan salah.
+- Bonus raksasa hanya diberikan sekali bagi setiap raksasa.
+- Jumlah kupang dikemas kini secara automatik.
+- Kupang yang telah diperoleh tidak hilang apabila pemain keluar daripada permainan.
+
+# 14. SISTEM KEKUATAN DAN KEMAJUAN RAJA MUSTAFAR
+
+Sediakan sistem perkembangan karakter.
+
+Paparkan:
+- Tahap kekuatan.
+- Bar tenaga.
+- Mata pengalaman.
+- Jumlah raksasa yang telah ditewaskan.
+- Jumlah tabung yang telah ditemukan.
+
+Setiap kejayaan mengatasi raksasa akan meningkatkan mata pengalaman dan kekuatan pemain.
+
+Contoh:
+
+TAHAP 1: PENDEKAR MUDA
+
+TAHAP 2: PENDEKAR PERKASA
+
+TAHAP 3: PENDEKAR HEBAT
+
+TAHAP 4: PENDEKAR AGUNG
+
+TAHAP 5: PENDEKAR DIRaja
+
+Kekuatan ini hanya mempengaruhi aspek permainan dan tidak menentukan ketepatan jawapan akademik.
+
+# 15. SISTEM LIMA TABUNG DAN KEMAJUAN PERMAINAN
+
+Sediakan satu panel kemajuan yang sentiasa boleh dilihat oleh pemain.
+
+Contoh paparan:
+
+MISI TABUNG PITIS
+
+- Tabung 1: Belum ditemukan.
+- Tabung 2: Belum ditemukan.
+- Tabung 3: Belum ditemukan.
+- Tabung 4: Belum ditemukan.
+- Tabung 5: Belum ditemukan.
+
+Apabila pemain menemui dan menyelesaikan satu tabung, kemas kini status kepada SELESAI.
+
+Paparkan juga jumlah keseluruhan:
+
+TABUNG DITEMUKAN: 3/5
+
+Pastikan pemain boleh bergerak ke lokasi lain walaupun telah gagal menjawab sesuatu tabung.
+
+Walau bagaimanapun, status tabung tersebut kekal BELUM SELESAI sehingga jawapan yang betul diberikan.
+
+# 16. MISI AKHIR: GELARAN PANGLIMA AGUNG
+
+Selepas pemain menemui kesemua lima Tabung Pitis, permainan akan memasuki misi akhir.
+
+Tajuk:
+
+**UJIAN TERAKHIR RAJA MUSTAFAR**
+
+Paparkan rekod lima soalan:
+- Soalan yang dijawab betul.
+- Soalan yang pernah dijawab salah.
+- Soalan yang perlu diulang semula.
+
+Jika terdapat soalan yang pernah dijawab salah, pemain perlu menjawab semula soalan tersebut.
+
+Sediakan semakan semula yang mengandungi:
+- Petikan asal.
+- Ruang menaip jawapan.
+- Butang HANTAR JAWAPAN.
+- Maklum balas selepas jawapan dihantar.
+
+Jangan benarkan pemain mendapat gelaran akhir selagi masih terdapat jawapan yang belum betul.
+
+### Syarat memperoleh gelaran
+
+Pemain perlu:
+1. Menemui kesemua lima Tabung Pitis.
+2. Menjawab kesemua lima soalan dengan betul.
+3. Menjawab semula semua soalan yang pernah salah dengan betul.
+4. Melengkapkan semakan akhir.
+
+Apabila semua syarat dipenuhi, paparkan:
+
+<text>TAHNIAH!</text>
+
+# GELARAN PANGLIMA AGUNG
+
+"Anda telah membuktikan kebijaksanaan, ketelitian dan semangat seorang pendekar bahasa. Lima Tabung Pitis berjaya ditemukan dan semua cabaran kata adjektif telah diselesaikan dengan cemerlang!"
+
+Paparkan:
+- Raja Mustafar dalam pakaian diraja.
+- Animasi kemenangan.
+- Istana yang bercahaya.
+- Bunga api berbentuk pixel.
+- Lencana PANGLIMA AGUNG.
+- Jumlah kupang terkumpul.
+- Jumlah raksasa yang berjaya ditewaskan.
+- Jumlah percubaan menjawab.
+- Rekod lima kata adjektif yang telah dikuasai.
+
+Sediakan butang:
+1. LIHAT PENCAPAIAN.
+2. MAIN SEMULA.
+3. KEMBALI KE MENU UTAMA.
+
+# 17. WATAK SAMPINGAN DAN ELEMEN AWANG KENIT
+
+Kekalkan identiti dunia Awang Kenit dalam permainan ini.
+
+Watak sampingan:
+- Awang Kenit sebagai pembimbing.
+- Badang sebagai pendekar yang memberikan kata-kata semangat.
+- Penduduk kampung sebagai pemberi maklumat.
+- Raja Mustafar sebagai watak utama.
+- Raksasa sebagai penjaga kawasan.
+
+### Fungsi Awang Kenit
+
+Awang Kenit muncul pada permulaan permainan dan di beberapa lokasi tertentu.
+
+Peranannya:
+- Memperkenalkan misi.
+- Memberikan petunjuk mencari Tabung Pitis.
+- Menerangkan cara menjawab soalan.
+- Memberikan kata-kata semangat.
+- Mengingatkan murid tentang penggunaan kata adjektif.
+
+Contoh dialog:
+
+"Salam, Raja Mustafar! Lima Tabung Pitis telah disembunyikan di sekitar medan ini. Setiap tabung mengandungi cabaran bahasa yang perlu diselesaikan. Gunakan kebijaksanaan anda untuk melengkapkan cerita dengan kata adjektif yang tepat!"
+
+Contoh dialog apabila pemain menjawab salah:
+
+"Jangan tergesa-gesa, Raja Mustafar! Teliti maksud ayat sebelum menaip jawapan. Setiap perkataan mempunyai makna yang tersendiri!"
+
+# 18. AUDIO, ANIMASI DAN KESAN VISUAL
+
+Tambahkan elemen audio dan animasi untuk meningkatkan pengalaman permainan.
+
+Audio:
+- Muzik latar pengembaraan fantasi Melayu.
+- Bunyi alam semula jadi.
+- Bunyi air sungai.
+- Bunyi burung.
+- Bunyi tapak kaki.
+- Bunyi peti dibuka.
+- Bunyi syiling diperoleh.
+- Bunyi kemenangan.
+- Muzik latar istana.
+
+Animasi:
+- Raja Mustafar berjalan dan berlari.
+- Raja Mustafar melompat.
+- Burung terbang.
+- Daun pokok bergerak.
+- Air terjun mengalir.
+- Tabung Pitis bercahaya.
+- Peti terbuka dengan kesan cahaya.
+- Raksasa muncul dan berundur.
+- Animasi peningkatan kekuatan.
+- Animasi kemenangan PANGLIMA AGUNG.
+
+Sediakan butang untuk mengawal muzik dan bunyi.
+
+# 19. REKA BENTUK UI/UX PERMAINAN
+
+Pastikan keseluruhan permainan mempunyai reka bentuk yang konsisten.
+
+Gunakan:
+- Dunia 3D blocky seperti Roblox.
+- Warna yang terang dan menarik.
+- Tekstur kayu dan batu.
+- Motif tradisional Melayu.
+- Ikon kupang.
+- Panel inventori.
+- Bar tenaga.
+- Bar kemajuan.
+- Butang interaktif yang jelas.
+- Ruang menaip jawapan yang besar dan mudah dibaca.
+
+### Paparan HUD semasa permainan
+
+Bahagian atas kiri:
+- Avatar Raja Mustafar.
+- Nama pemain.
+- Tahap kekuatan.
+
+Bahagian atas kanan:
+- Jumlah kupang.
+- Jumlah tabung ditemukan.
+
+Bahagian bawah kiri:
+- Joystick maya.
+
+Bahagian bawah kanan:
+- Lompat.
+- Lari.
+- Interaksi.
+
+Bahagian bawah atau sisi skrin:
+- Bar tenaga.
+- Butang inventori.
+- Penanda kemajuan misi.
+
+### Paparan apabila tabung dibuka
+
+Pastikan ruang soalan tidak memenuhi keseluruhan skrin sehingga pemain hilang konteks permainan.
+
+Gunakan panel yang kemas:
+- Tajuk Tabung Pitis.
+- Nama lokasi.
+- Aras kesukaran.
+- Petikan cerita.
+- Ruang menaip.
+- Butang hantar.
+
+# 20. PANDUAN PEMAIN
+
+Sediakan halaman panduan sebelum permainan bermula.
+
+Terangkan:
+
+1. Gunakan W, A, S, D untuk menggerakkan Raja Mustafar.
+2. Gunakan SPACE untuk melompat.
+3. Gunakan SHIFT untuk berlari.
+4. Gunakan E untuk membuka Tabung Pitis apabila berada berdekatan.
+5. Baca petikan dengan teliti.
+6. Taip kata adjektif yang paling sesuai.
+7. Tekan HANTAR JAWAPAN.
+8. Baca penerangan selepas menghantar jawapan.
+9. Teruskan mencari tabung yang lain.
+10. Hadapi cabaran raksasa untuk mendapatkan ganjaran.
+11. Jawab semula semua soalan yang pernah salah.
+12. Lengkapkan misi untuk memperoleh gelaran PANGLIMA AGUNG.
+
+# 21. KEPERLUAN TEKNIKAL GOOGLE AI STUDIO
+
+Bangunkan permainan ini sebagai aplikasi web 3D yang benar-benar berfungsi.
+
+Gunakan teknologi berikut jika disokong:
+
+- React.
+- TypeScript.
+- Three.js atau React Three Fiber untuk dunia 3D.
+- CSS untuk reka bentuk antaramuka.
+- LocalStorage atau IndexedDB untuk menyimpan kemajuan pemain.
+- Sistem pengurusan keadaan untuk watak, inventori, kupang dan soalan.
+
+### Fungsi teknikal yang wajib ada
+
+1. Dunia 3D yang boleh diterokai.
+2. Sistem kawalan watak menggunakan papan kekunci.
+3. Joystick maya untuk peranti mudah alih.
+4. Kamera orang ketiga.
+5. Sistem perlanggaran objek (collision detection).
+6. Sistem interaksi dengan Tabung Pitis.
+7. Sistem input teks untuk menjawab soalan.
+8. Sistem semakan jawapan automatik.
+9. Sistem penerangan jawapan.
+10. Sistem percubaan semula.
+11. Sistem raksasa dan cabaran fantasi.
+12. Sistem ganjaran kupang.
+13. Sistem inventori.
+14. Sistem peningkatan kekuatan.
+15. Sistem kemajuan lima tabung.
+16. Sistem gelaran PANGLIMA AGUNG.
+17. Sistem penyimpanan kemajuan permainan.
+18. Sistem pemindahan data daripada MISI JELAJAH BUDAYA.
+
+Gunakan aset 3D yang ringan supaya permainan tidak terlalu berat untuk komputer sekolah dan telefon pintar.
+
+Jangan gunakan API berbayar atau pangkalan data luaran yang tidak diperlukan.
+
+Jika aset 3D khusus tidak tersedia, hasilkan model menggunakan bentuk geometri asas seperti kubus, silinder dan sfera. Gabungkan bentuk tersebut untuk menghasilkan karakter, raksasa, peti dan persekitaran.
+
+Jangan menggantikan keseluruhan permainan dengan imej statik.
+
+# 22. KEUTAMAAN PEMBANGUNAN DAN UJIAN
+
+Bina permainan secara berperingkat tetapi pastikan semua fungsi disiapkan.
+
+Keutamaan:
+
+**Fasa 1:**
+- Halaman utama.
+- Pengesahan avatar Raja Mustafar.
+- Dunia 3D.
+- Sistem pergerakan dan kamera.
+
+**Fasa 2:**
+- Lima lokasi.
+- Lima Tabung Pitis.
+- Sistem interaksi dan pembukaan peti.
+
+**Fasa 3:**
+- Lima soalan melengkapkan petikan.
+- Ruang menaip jawapan.
+- Semakan jawapan.
+- Penerangan dan percubaan semula.
+
+**Fasa 4:**
+- Raksasa.
+- Sistem cabaran fantasi.
+- Ganjaran kupang.
+- Inventori dan peralatan.
+
+**Fasa 5:**
+- Sistem kemajuan.
+- Semakan jawapan yang salah.
+- Gelaran PANGLIMA AGUNG.
+- Penyimpanan data dan ujian keseluruhan.
+
+Sebelum menamatkan pembangunan, uji perkara berikut:
+- Watak boleh bergerak dan melompat.
+- Pemain tidak boleh menembusi dinding atau objek.
+- Semua lima lokasi boleh diterokai.
+- Kelima-lima Tabung Pitis boleh ditemukan.
+- Setiap tabung hanya mengandungi satu soalan.
+- Pemain boleh menaip jawapan sendiri.
+- Jawapan betul dan salah dikesan dengan tepat.
+- Penerangan diberikan selepas penghantaran jawapan.
+- Soalan yang salah boleh dijawab semula.
+- Raksasa boleh ditewaskan atau pemain boleh kalah tanpa permainan tamat.
+- Ganjaran diberikan dengan tepat.
+- Semua kemajuan disimpan.
+- Gelaran PANGLIMA AGUNG hanya diberikan apabila semua syarat dipenuhi.
+
+# 23. HASIL AKHIR YANG DIKEHENDAKI
+
+Saya mahu sebuah permainan pendidikan digital 3D yang lengkap bertajuk:
+
+**MEDAN PENDEKAR BAHASA**
+
+Permainan ini merupakan kesinambungan kepada MISI JELAJAH BUDAYA dan menggunakan Raja Mustafar sebagai watak utama.
+
+Pemain perlu mengembara dalam dunia fantasi 3D ala Roblox, meneroka lima lokasi, mencari lima Tabung Pitis, menghadapi raksasa, mengumpulkan kupang dan melengkapkan petikan cerita rakyat menggunakan kata adjektif yang betul.
+
+Permainan mesti menguji keupayaan murid menaip jawapan sendiri, bukan memilih jawapan yang disediakan.
+
+Setiap jawapan perlu disertakan penerangan tatabahasa supaya murid memahami sebab sesuatu kata adjektif itu sesuai digunakan dalam konteks ayat.
+
+Pada penghujung permainan, murid yang berjaya menjawab kesemua soalan dengan betul akan memperoleh gelaran:
+
+**PANGLIMA AGUNG**
+
+Jadikan permainan ini sebuah pengalaman pengembaraan pendidikan yang menyeronokkan, mencabar, mempunyai nilai budaya dan sesuai untuk murid Tahun 6.
+
+**ARAHAN TERAKHIR: BINA APLIKASI PERMAINAN YANG SEBENAR-BENARNYA BOLEH DIMAINKAN. JANGAN HANYA MENGHASILKAN MOCKUP, PAPARAN STATIK ATAU KONSEP REKA BENTUK. SEMUA BUTANG, KAWALAN WATAK, TABUNG, SOALAN, GANJARAN DAN SISTEM KEMAJUAN MESTI BERFUNGSI.**
